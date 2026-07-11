@@ -1,0 +1,13 @@
+.venv/
+venv/
+ENV/
+
+**/__pycache__/
+*.pyc
+
+.idea/
+
+.browser_sessionSAFE/
+browser_sessionSAFE/
+
+/pw-browsers/
