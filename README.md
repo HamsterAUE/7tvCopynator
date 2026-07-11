@@ -77,6 +77,14 @@ pyinstaller --onefile --name="7tvCopinator" main.py
 3. Готовый файл появится в папке `dist/7tvCppinator.exe`.
 
 ---
+## 📦 Как скачать и запустить готовую версию (.exe)
+
+Вы можете скачать готовую сборку для Windows:
+
+1. Перейдите в раздел [Releases](https://github.com/HamsterAUE/7tvCopynator/releases) на этом репозитории.
+2. Скачайте архив `7tvEmoteCopier.zip` из последнего релиза.
+3. Распакуйте архив в любую удобную папку (не запускай прямо из архива!).
+4. Запустите файл `7tvEmoteCopier.exe`.
 
 ## ⚠️ Примечания
 
