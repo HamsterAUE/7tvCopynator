@@ -1,0 +1,10 @@
+mutation EmoteSet($emote: EmoteSetEmoteId!, $emoteSetId: Id!) {
+    emoteSets {
+        emoteSet(id: $emoteSetId) {
+            addEmote(id: $emote) {
+                id
+                name
+            }
+        }
+    }
+}

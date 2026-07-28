@@ -1,0 +1,23 @@
+query Users( $query: String!) {
+          users {
+            search(query: $query) {
+              items {
+                id
+                emoteSets {
+                  id
+                  name
+                  emotes {
+                    totalCount
+                    items {
+                      emote {
+                        id
+                        defaultName
+                      }
+                      alias
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }

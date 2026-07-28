@@ -1,0 +1,15 @@
+query Getme{
+  users {
+    me {
+      id
+      mainConnection {
+        platform
+        platformUsername
+      }
+      emoteSets {
+        name
+        id
+      }
+    }
+  }
+}
